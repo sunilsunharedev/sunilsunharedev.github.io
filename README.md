@@ -32,7 +32,9 @@ npm run build
 npm run preview
 ```
 
-Deploy the complete `dist/` directory to a static host. For GitHub Pages, configure a build/deployment workflow that installs dependencies, runs the build and publishes `dist/`.
+The live portfolio is [sunilsunharedev.github.io](https://sunilsunharedev.github.io/). The workflow in `.github/workflows/deploy-pages.yml` installs dependencies, checks TypeScript, builds the site and publishes the complete `dist/` directory on every push to `main`. GitHub Pages uses **GitHub Actions** as its publishing source.
+
+For another static host, deploy the complete `dist/` directory.
 
 ## Content and structure
 
